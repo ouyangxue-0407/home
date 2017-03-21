@@ -1,0 +1,27 @@
+body
+{
+	color:yellow;
+	background:red;
+	margin:5%,15%;
+} /* body */
+
+
+dd
+{
+	background:blue;
+	padding:dotted;
+	font-family:sans-serif;
+	font-size:16pt;
+	line-height:14pt;
+	border:solid gray 6px;
+} /* dd */
+
+
+dt
+{
+	background:black;
+	color:white;
+	font-family:sans-serif;
+	font-size:16pt;
+	line-height:14pt;	
+}
