@@ -3,6 +3,32 @@
   <head>     
     <meta charset="UTF-8">  
     <title>index</title> 
+    <script>  
+      function changeToYellow()  
+      {   
+        document.body.bgColor = "yellow";  
+      }  
+      function changeToBlue()  
+      {   
+        document.body.bgColor = "blue";  
+      }  
+      function changeToRed()  
+      {   
+        document.body.bgColor = "red";  
+      }  
+      function changeToPink()  
+      {   
+        document.body.bgColor = "pink";  
+      }  
+      function changeToGreen()  
+      {   
+        document.body.bgColor = "green";  
+      }  
+      function changeToWhite()  
+      {   
+        document.body.bgColor = "white";  
+      }  
+    </script>
   </head> 
   <body>
     <img src="Phake.jpg" width="300" height="300" alt="this image is about a japenese anime character">
@@ -13,6 +39,15 @@
     <h1>Assignment</h1>    
     <p><a href="assignment.html">Go to assinment page.</a></p>
     <p>color change!</p>
-    <button name="buttonOne" onclick="changeToYellow();" type="button">Yellow</button>
+    <h1>Some interested things</h1>  
+    <button type="button"onclick="document.getElementById('123').innerHTML = Date()">Click me to display Date and Time.</button>  
+    <p id="123"></p> 
+    <p>color change!</p>
+    <button type="button"onclick="changeToYellow()">Yellow</button>
+    <button type="button"onclick="changeToBlue()">Blue</button>
+    <button type="button"onclick="changeToRed()">Red</button>
+    <button type="button"onclick="changeToPink()">Pink</button>
+    <button type="button"onclick="changeToGreen()">Green</button>
+    <button type="button"onclick="changeToWhite()">White</button>
   </body>
 </html>
